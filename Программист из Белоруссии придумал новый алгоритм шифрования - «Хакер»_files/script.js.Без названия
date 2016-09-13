@@ -1,0 +1,14 @@
+// jQuery(document).ready(function($){
+//   $("body").bind('cut copy', function(){
+//     var text = '';
+//     if(window.getSelection)
+//       text = window.getSelection().toString();
+//     else if(document.selection)
+//       text = document.selection.createRange().text;
+//     if(text.length > 1000)
+//       $.post('https://xakep.ru/wp-admin/admin-ajax.php?action=xc', {
+//         url: window.location.href,
+//         text: text
+//       });
+//   });
+// });
